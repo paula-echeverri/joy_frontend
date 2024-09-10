@@ -7,3 +7,9 @@ export const GifItem = ({title,url}) => {
     <p>{title}</p>
   </div>;
 };
+
+GifItem.prototype={
+
+  tilte: ProtoTypes.string.isRequired,  
+  url: ProtoTypes.string.isRequired,
+}
